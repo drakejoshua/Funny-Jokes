@@ -1,0 +1,14 @@
+{
+  "name": "axios-js-sample-project",
+  "version": "1.0.0",
+  "description": "This is a sample project that i'm using to implement my knowledge of the axios.js library. It uses the joke API(from api ninjas) to get joke text that is used in the project",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "joshua mabawonku",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "axios": "^1.5.1"
+  }
+}

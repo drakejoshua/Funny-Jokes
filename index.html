@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Funny Jokes</title>
+
+    <!-- link to the css stylesheet used on this page -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- link to the material symbol icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body>
+    <nav>
+        <span id="nav-text">
+            funny Jokes :-)
+        </span>
+
+        <span id="attribution-text">
+            made by
+
+            <a href="">
+                mabawonku joshua
+            </a>
+        </span>
+    </nav>
+
+    <section class="error" id="jokes-pane">
+        <div id="loading">
+            <label for="loader">loading a joke...</label>
+            <progress id="loader" value="5" max="100"></progress>
+        </div>
+
+        <div id="data">
+            <h1>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                Harum quidem enim beatae dignissimos placeat.
+                Est molestias accusamus tempora sequi enim earum nihil omnis 
+                dolorum nisi adipisci. Soluta aliquam cumque libero!
+            </h1>
+        </div>
+
+        <div id="error">
+            <div>
+                <span class="material-symbols-outlined" id="icon">
+                    warning
+                </span>
+                <span id="error-text">
+                    loading error
+                </span>
+            </div>
+
+            <button id="retry-btn">
+                retry
+            </button>
+        </div>
+    </section>
+
+    <script src="./node_modules/axios/dist/axios.min.js"></script>
+    <script type="module" src="./script.js"></script>
+</body>
+</html>
